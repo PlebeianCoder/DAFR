@@ -1,0 +1,8 @@
+PyOpenGL
+PyOpenGL_accelerate
+glfw
+numpy
+opencv-python
+mediapipe
+pre-commit
+pillow

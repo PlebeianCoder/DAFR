@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyfacear"
+#dynamic = ["version"]
+version = "0.1.0"
+description = 'Augment faces with 3D effects.'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+  "PyOpenGL",
+  "PyOpenGL_accelerate",
+  "glfw",
+  "numpy",
+  "opencv-python",
+  "mediapipe",
+  "pre-commit",
+  "pillow"
+]

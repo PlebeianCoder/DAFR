@@ -1,0 +1,3 @@
+Changes made to the original CMMD implementation found at https://github.com/sayakpaul/cmmd-pytorch
+- Added type hints for greater clarity
+- Rewrote `io_util.py` to use our dataset loading

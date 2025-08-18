@@ -1,0 +1,1 @@
+./mask_face/masks/textures/23.jpg
