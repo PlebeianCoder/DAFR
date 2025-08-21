@@ -1,6 +1,10 @@
-# Diffusion Attacks against Facial Recognition (DAFR)
+# Text to Stealthy Adversarial Face Masks
 
-## Installation
+This is the code implementation of "Text to Stealthy Adversarial Face Masks" by Ben Lewis, Thomas Moyse, James Parkinson, Elizabeth Telford, Callum Whitfield, Ranko Lazic.
+
+## Diffusion Attacks against Facial Recognition (DAFR)
+
+###  Installation
 
 1. Create a Python virtual environment to install the requirements in freeze_requirements.txt, generated using pip freeze. We also provide a smaller requirements using pipreqs, but have not tested using these requirements.
 2. You will also have to install locally into your virtual environment AdvDiffFace (advfaceutil) and PyFaceAR (pyfacear), two libraries created to provide utilities, benchmarks and the recognition frameworks. This can be done using pip too.
